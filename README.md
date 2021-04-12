@@ -25,7 +25,7 @@ As possible future improvements to the app I would:
 
 -Improve UX/UI and make the app responsive for mobile phones.
 
--In case the app would have a hight data manipulation or calculation, I'll do it a separate thread (Web worker).
+-In case the app would have a hight data manipulation or calculation, I'll do it in a separate thread (Web worker).
 
 
 ## Running the app
@@ -37,7 +37,7 @@ Once you have cloned or downloaded the project you have to run `npm install` in 
 
 ### `npm start`
 
-After the dependencies have benn installed you can run `npm install` in the root of the project folder in ordert to start a local server to view the app in development mode.\
+After the dependencies have been installed you can run `npm install` in the root of the project folder in ordert to start a local server to view the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
