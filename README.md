@@ -6,7 +6,7 @@ In this repository you can find the Earthquakes Map Visualizer test.
 
 I would like to give a brief explanation about what is the process that I've followed and the decisions that I've made to develop the Earthquakes Map Visualizer app.
 
-The app has been built using ReactJS (Create React App tool). As you will see there are six components in te app which extend from React.PureComponent to check props on each component to decide wheter to render the component or not (to avoid unnecessary rendering of components). 
+The app has been built using ReactJS (Create React App tool). As you will see there are six components in the app which extend from React.PureComponent to check props on each component to decide whether to render the component or not (to avoid unnecessary rendering of components). 
 
 
 The main component is the Map component which is the one that holds most of the logic of the app and store the states of the app to share it between components, the rest of the component are stateless. The Map component uses DeckGL to render the map, basemap and layer (IconLayer). The data has been fetched from the API given in the test and each GeoJSON feature(earthquake) is an icon in the IconLayer.
@@ -21,11 +21,11 @@ As a bonus I've included a search component to look up earthquakes by id and cha
 As possible future improvements to the app I would:
 
 
--Add tests with jest library to test the code.
+-Add tests with the jest library to test the code.
 
 -Make the app responsive for mobile phones.
 
--In case the app would have a hight data manipulation or calculation, I'll do it a separate thread (Web worker).
+-In case the app would have a high data manipulation or calculation, I'll make it in a separate thread (Web worker).
 
 
 ## Running the app
@@ -37,7 +37,7 @@ Once you have cloned or downloaded the project you have to run `npm install` in 
 
 ### `npm start`
 
-After the dependencies have benn installed you can run `npm install` in the root of the project folder in ordert to start a local server to view the app in development mode.\
+After the dependencies have been installed, you can run `npm install` in the root of the project folder in order to start a local server to view the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
