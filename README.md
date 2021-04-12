@@ -23,7 +23,7 @@ As possible future improvements to the app I would:
 
 -Add tests with jest library to test the code.
 
--Make the app responsive for mobile phones.
+-Improve UX/UI and make the app responsive for mobile phones.
 
 -In case the app would have a hight data manipulation or calculation, I'll do it a separate thread (Web worker).
 
