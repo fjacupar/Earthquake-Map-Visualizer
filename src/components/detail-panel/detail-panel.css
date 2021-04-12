@@ -1,0 +1,43 @@
+.slide-pane__overlay {
+    z-index: 15;
+    top: 30px !important;
+}
+
+.slide-pane {
+    width: 32em !important;
+    height: 30em !important;
+}
+
+.slide-pane__close {
+    margin-left: 1%;
+}
+
+.slide-pane__header {
+    background-color: #FF5252 !important;
+    color: white;
+}
+
+.slide-pane__close svg {
+    width: 19px !important;    
+}
+
+.slide-pane__title {
+    font-size: 22px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slide-pane__content {
+    background-color: #928e8e !important;
+}
+
+.overlay-after-open {
+    background-color: transparent !important;
+}
+
+.detail-panel-field {
+    color: #ffd5a3;
+    margin-left: 8%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}

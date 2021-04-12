@@ -1,0 +1,9 @@
+body {
+  overflow: hidden;
+}
+
+.loader {
+  top: 40%;
+  left: 48%;
+  position: absolute;
+}

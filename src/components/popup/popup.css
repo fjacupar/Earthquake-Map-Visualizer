@@ -1,0 +1,23 @@
+.popup-title {
+    margin-left: 6%;
+    font-size: 18px;
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.close-popup {
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+}
+  
+.close-popup:before {
+    content: "×";
+}
