@@ -1,0 +1,7 @@
+.earthquake-search {
+    position: relative;
+    width: 20em;
+    top: 1em;
+    left: 1em;
+    z-index: 10;
+}

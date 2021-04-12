@@ -1,0 +1,19 @@
+.popup-field {
+    margin-left: 6%;
+    font-size: 17px;
+    color: #ffd5a3 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.popup-text {
+    font-size: 16px;
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.see-detail-button {
+    color: white !important;
+    left: 18%;
+    margin-bottom: 3% !important;
+    background-color: #FF5252 !important;
+}
