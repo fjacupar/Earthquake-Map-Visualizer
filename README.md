@@ -13,6 +13,8 @@ The main component is the Map component which is the one that holds most of the 
 
 In order to change the URL when navigating in each view (general and detailed view) I've made use of React Router library.
 
+I've made use of component libraries (Material UI, react-search-autocomplete, react-sliding-pane and react-loader-spinner) in order to facilitate and speed up component creation.
+
 As a bonus I've included a search component to look up earthquakes by id and change the icon for the earthquakes based on its state.
 
 
