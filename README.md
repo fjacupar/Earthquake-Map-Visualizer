@@ -6,10 +6,10 @@ In this repository you can find the Earthquakes Map Visualizer test.
 
 I would like to give a brief explanation about what is the process that I've followed and the decisions that I've made to develop the Earthquakes Map Visualizer app.
 
-The app has been built using ReactJS (Create React App tool). As you will see there are six components in te app which extend from React.PureComponent to check props on each component to decide wheter to render the component or not (to avoid unnecessary rendering of components). 
+The app has been built using ReactJS (Create React App tool). As you will see there are six components in te app that extend from React.PureComponent to check props on each component to decide wheter to render the component or not (to avoid unnecessary rendering of components). 
 
 
-The main component is the Map component which is the one that holds most of the logic of the app and store the states of the app to share it between components, the rest of the component are stateless. The Map component uses DeckGL to render the map, basemap and layer (IconLayer). The data has been fetched from the API given in the test and each GeoJSON feature(earthquake) is an icon in the IconLayer.
+The main component is the Map component which is the one that holds most of the logic of the app and store the states of the app to share it between components, the rest of the components are stateless. The Map component uses DeckGL to render the map, basemap and layer (IconLayer). The data has been fetched from the API given in the test and each GeoJSON feature(earthquake) is an icon in the IconLayer.
 
 In order to change the URL when navigating in each view (general and detailed view) I've made use of React Router library.
 
